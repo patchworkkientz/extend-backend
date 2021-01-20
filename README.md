@@ -41,7 +41,7 @@ This is bare-bones version of our backend codebase, where we ask candidates to m
   yarn test
   ```
 
-- Confirm our a compiled-build of our sample Lamdbda handler works
+- Confirm our a compiled-build of our sample Lambda handler works
 
   ```bash
   yarn test:lambda
