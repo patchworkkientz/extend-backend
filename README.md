@@ -59,7 +59,7 @@ Follow these steps to create a new API endpoint in this codebase:
 
 - use [`node-fetch`](https://github.com/node-fetch/node-fetch) (already installed) to pull from the [dogs-list endpoint](https://dog.ceo/api/breeds/list/all). 
 
-- organize the code in a way that could scale if the codebase were to grow.
+- organize the files and directory structure in a way that could scale if the codebase were to grow.
 
 - the endpoint handler should return a response object, containing a list of all breeds as a flat array of strings. If a breed does not have sub-breeds include the breed. If a breed has sub-breeds include each sub-breed as a separate element. For example, `english sheepdog`, `shetland sheepdog` and `beagle` should all be on the list. However, `sheepdog` should not be included.
 
