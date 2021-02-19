@@ -1,11 +1,11 @@
 import fetch from 'node-fetch'
-import { handler } from './stuff-get'
+import { handler } from './random-get'
 
 const mockedFetch: jest.Mock = fetch as any
 
 jest.mock('node-fetch')
 
-describe('stuff-get handler', () => {
+describe('random-get handler', () => {
   const mockPayload = { test: 'hello?' }
   beforeEach(() => {
     mockedFetch.mockReturnValueOnce({

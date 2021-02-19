@@ -1,1 +1,1 @@
-export { handler as stuffGet } from './stuff-get'
+export { handler as randomGet } from './random-get'
