@@ -21,6 +21,7 @@ module.exports = {
     sourceType: 'module', // Allows for the use of imports
   },
   rules: {
+    'import/extensions': 'off',
     'import/prefer-default-export': 0,
   },
   settings: {
